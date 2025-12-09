@@ -1,3 +1,5 @@
+.idea
+
 # Prerequisites
 *.d
 
@@ -38,4 +40,4 @@ cmake-*/
 *.pyc
 
 data/
-src/config.hpp
+#src/config.hpp

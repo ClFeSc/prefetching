@@ -186,6 +186,7 @@ int main(int argc, char **argv)
         auto madvise_huge_pages = convert<bool>(runtime_config["madvise_huge_pages"]);
         auto use_explicit_huge_pages = convert<bool>(runtime_config["use_explicit_huge_pages"]);
         auto out = convert<std::string>(runtime_config["out"]);
+        std::cout << "Will write to " << out << std::endl;
 
         LFBBenchmarkConfig config = {
             total_memory,

@@ -1,5 +1,12 @@
 #include "config.hpp"
 
+#include <bits/local_lim.h>
+#include <stdexcept>
+#include <string>
+#include <unordered_map>
+
+#include <unistd.h>
+
 std::string get_curr_hostname()
 {
     char c_hostname[HOST_NAME_MAX]; // HOST_NAME_MAX is typically defined to be 255
